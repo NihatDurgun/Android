@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GirisEkran">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Mail adresiniz"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="250dp"
+        android:id="@+id/giris_yap_editEmail"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Sifreniz"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:id="@+id/giris_yap_editSifre"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="girisyap"
+        android:text="Giriş Yap"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="kayitOlGit"
+        android:text="Kayit Ol"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
